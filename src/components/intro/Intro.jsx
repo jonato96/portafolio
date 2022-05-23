@@ -16,7 +16,7 @@ export default function Intro(){
                     <h3>
                         <Typewriter
                             options={{
-                                strings: ["Desarrrador", "Amante de la tecnología", "A veces creador de contenido"],
+                                strings: ["Desarrollador", "Amante de la tecnología", "A veces creador de contenido"],
                                 autoStart: true,
                                 delay: 75,
                                 loop: true
