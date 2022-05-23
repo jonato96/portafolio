@@ -1,0 +1,54 @@
+@import "../../global.scss";
+
+.contact{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    h1{
+        margin: 100px 50px;
+        font-size: 50px;
+    }
+    h3{
+        margin-bottom: 50px;
+        font-size: 25px;
+    }
+    .social{
+        background-color: $mainColor;
+        padding: 25px 50px;
+        border-radius: 25px;
+        transition: all 1s ease;
+        a{
+            margin: 0 1rem;
+            transition: transform 250ms;
+            display: inline-block;
+            
+        }
+        &:hover{
+            transform: translateY(-2px);
+        }
+        a.youtube{
+            color: #bb0000;
+        }
+        a.facebook{
+            color: #3b5998;
+        }
+        a.instagram{
+            color: #E1306C;
+        }
+        a.github{
+            color: #171515;
+        }
+        a.twitter{
+            color: #55acee;
+        }
+    }
+
+
+    @include mobile{
+        flex-direction: column;
+    }
+   
+}
